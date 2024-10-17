@@ -23,6 +23,8 @@ class DetectController extends Controller
         $output = shell_exec('python "' . base_path('scripts/detect.py') . '" "' . $tempFilePath . '"');
         Log::info($output);
 
-        return response()->json(['result' => $output]);
+        $output2 = shell_exec('python "' . base_path('scripts/result.py'));
+
+        return response()->json(['result' => $output2]);
     }
 }

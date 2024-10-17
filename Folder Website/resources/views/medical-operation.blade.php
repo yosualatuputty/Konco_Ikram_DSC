@@ -7,6 +7,13 @@
 <div class="container">
     <h1>Medical Operation</h1>
     <p>Welcome to the Medical Operation page!</p>
+    <div>
+        <label for="modelSelect">Select Model:</label>
+        <select id="modelSelect">
+            <option value="a">Best Model</option>
+            <option value="b">Drowsy Model</option>
+        </select>
+    </div>
     <video id="video" autoplay playsinline></video>
     <canvas id="canvas" style="display: block; border: 1px solid black;"></canvas>
     <div class="toggle"></div>
