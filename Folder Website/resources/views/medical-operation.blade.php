@@ -14,4 +14,5 @@
     <p>This page contains all the information related to medical operations and procedures.</p>
 </div>
 <script src="{{ asset('js/medical.js') }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
 @endsection

@@ -46,7 +46,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="/construction-operation-page" class="card-link">
+                <a href="/construction-operation" class="card-link">
                     <div class="card">
                         <div class="content">
                             <h3>Construction Operation</h3>

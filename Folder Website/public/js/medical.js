@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         // Panggil lagi fungsi ini setelah beberapa saat (untuk real-time capture)
-        setTimeout(captureFrame, 100); // Kirim frame setiap 1 detik
+        setTimeout(captureFrame, 500); // Kirim frame setiap 1 detik
     }
 
     function sendFrame(blob) {
