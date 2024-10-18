@@ -18,23 +18,28 @@ video {
     border-radius: 8px;
     margin: 20px 0;
     z-index: 1;
+    display: block;
+    position: relative;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .toggle {
     width: 40px;
     height: 20px;
-    background-color: #A2C2D0;
+    background-color: #a2c2d0;
     border-radius: 20px;
     cursor: pointer;
     position: relative;
 }
 
 .toggle.active {
-    background-color: #4D6D7A; 
+    background-color: #4d6d7a;
 }
 
 .toggle:after {
-    content: '';
+    content: "";
     position: absolute;
     top: 2px;
     left: 2px;
@@ -54,28 +59,29 @@ video {
     height: 400px;
     position: relative;
     display: flex;
-    justify-content: center; 
-    align-items: center;    
+    justify-content: center;
+    align-items: center;
 }
 
 .camera-status {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.7); 
+    background-color: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
-    z-index: 10; 
+    z-index: 10;
     text-align: center;
-    top: 65%;  
-    left: 58%; 
-    transform: translate(-50%, -50%); 
+    top: 65%;
+    left: 58%;
+    transform: translate(-50%, -50%);
 }
 
 canvas {
     position: relative;
     bottom: 380px;
     z-index: 999;
-    display: block; 
-    border: 1px solid black;
-
+    display: block;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
