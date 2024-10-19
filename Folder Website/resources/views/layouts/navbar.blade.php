@@ -16,9 +16,15 @@
                 <li><a href="{{ route('dashboard') }}">
                     <img src="{{ asset('images/Logo-house.png') }}" alt="House Logo" class="nav-icon">
                     Dashboard</a></li>
-                <li><a href="#">
+                <!-- <li><a href="#">
                     <img src="{{ asset('images/Logo-database.png') }}" alt="Database Logo" class="nav-icon">
-                    Database</a></li>
+                    Database</a></li> -->
+                <li><a href="/statistics-apd">
+                    <img src="{{ asset('images/logo-statistic.png') }}" alt="Database Logo" class="nav-icon">
+                    Statistics APD</a></li>
+                <li><a href="/statistics-drowsy">
+                    <img src="{{ asset('images/logo-statistic.png') }}" alt="Database Logo" class="nav-icon">
+                    Statistics Drowsy</a></li>
             </ul>
         </nav>
     </aside>
